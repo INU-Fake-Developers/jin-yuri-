@@ -1,8 +1,12 @@
 n=int(input(''))
 a,b=0,1
 for i in range(n):
-    a, b = b, a+b
+    temp = a+b
+    a = b
+    b = temp
 print(a)
+
+
 
 
 
