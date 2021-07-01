@@ -1,4 +1,4 @@
-N = int(input(''))
+N = int(input())
 cycle = 0
 new = N
 while True:
